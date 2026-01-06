@@ -5,7 +5,7 @@ const Card = ({ data }) => {
   console.log(data);
 
   const readMore = (url) => {
-    window.open(url, '_blank'); // safer to open in new tab
+    window.open(url, '_blank'); 
   };
 
   return (

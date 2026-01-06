@@ -1,0 +1,91 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.navbar nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightblue;
+  padding:9px;
+}
+
+.navbar nav h1 {
+  cursor:pointer;
+}
+
+.navbar input{
+  width:250px;
+  text-decoration: none;
+  padding:9px;
+  font-size: 18px;
+  border:none;
+}
+
+.search-bar {
+  display:flex;
+  align-items: center;
+  gap:11px;
+}
+
+.navbar button{
+  width:70px;
+  height:38px;
+  background-color: blue;
+  border:none;
+  border-radius: 2px;
+  color:white;
+  cursor: pointer;
+}
+
+.navbar ul {
+display:flex;
+gap:11px;
+}
+
+.navbar ul a {
+  font-size: 19px;
+  font-weight: 500;
+  
+}
+
+.navbar ul a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.category-btn {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  margin-top: 20px;
+
+
+}
+
+.category-btn button{
+background-color: rgb(215, 32, 32);
+outline: none;
+border:none;
+border-radius: 15px;
+font-size: 18px;
+color:white;
+cursor:pointer;
+padding:2px;
+width:130px;
+height:34px;
+}
+
+.category-p {
+text-align: center;
+font-weight: 600;
+font-size: 25px;
+margin-top: 30px;
+}
+
+.category-btn button:hover {
+  background-color: rgb(228, 77, 77);;
+}
